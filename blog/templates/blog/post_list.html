@@ -1,29 +1,121 @@
-<html>
+<!DOCTYPE html>
+<html lang="ko">
   <head>
-    <title>KHU's blog</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>자화상 - 윤동주</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        padding: 20px;
+        background-color: white;
+        border-bottom: 10px solid gray;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 24px;
+      }
+      section {
+        padding: 10px;
+      }
+      section h2 {
+        font-size: 20px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      section h3 {
+        font-size: 18px;
+        text-align: center;
+      }
+      section p {
+        line-height: 2.5;
+      }
+      aside {
+        padding-left: 20px;
+        background-color: white;
+        width: 50%;
+        margin-bottom: 20px;
+      }
+      aside h1 {
+        font-size: 24px;
+        margin-top: 0;
+      }
+      aside ul {
+        list-style: disc;
+        padding-left: 30px;
+        margin: 0;
+      }
+      footer {
+        text-align: left;
+        padding: 10px;
+        background-color: white;
+        border-top: 1px solid gray;
+      }
+      .centered-title {
+        text-align: center;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+      }
+      .centered-title::after {
+        content: "";
+        position: absolute;
+        bottom: -2px; /* Adjust as needed to position the line */
+        left: 50%;
+        width: 50%;
+        height: 1px;
+        background-color: gray;
+        transform: translateX(-50%);
+      }
+    </style>
   </head>
   <body>
-    <div>
-      <h1><a href=""> KHU's blog </a></h1>
-    </div>
-    <div>
-      <p>published: 14.06.2014, 12:14</p>
-      <h2><a href="">My first post</a></h2>
+    <header>
+      <h1>자화상 - 윤동주</h1>
+    </header>
+
+    <section>
+      <div class="centered-title">
+        <h2><자화상></h2>
+        <h3>윤동주</h3>
+      </div>
       <p>
-        Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
-        vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce
-        dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-        fermentum massa justo sit amet risus.
+        산모퉁이를 돌아 논가 외딴 우물을 홀로 찾아가선 가만히 들여다봅니다.<br />
+        우물 속에는 달이 밝고 구름이 흐르고 하늘이 펼치고 파아란 바람이 불고
+        가을이 있습니다.<br />
+        그리고 한 사나이가 있습니다.<br />
+        어쩐지 그 사나이가 미워져 돌아갑니다.<br />
+        돌아가다 생각하니 그 사나이가 가엾어집니다. 도로 가 들여다보니 사나이는
+        그대로 있습니다.<br />
+        다시 그 사나이가 미워져 돌아갑니다.<br />
+        돌아가다 생각하니 그 사나이가 그리워집니다.<br />
+        우물 속에는 달이 밝고 구름이 흐르고 하늘이 펼치고 파아란 바람이 불고
+        가을이 있고 추억처럼 사나이가 있습니다.<br />
       </p>
-    </div>
-    <div>
-      <p>published: 14.06.2014, 12:14</p>
-      <h2><a href="">My second post</a></h2>
-      <p>
-        Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
-        vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce
-        dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut f.
-      </p>
-    </div>
+    </section>
+
+    <aside>
+      <h1>윤동주 시인의 다른 시</h1>
+      <ul>
+        <li>서시</li>
+        <li>자화상</li>
+        <li>눈오는 지도</li>
+        <li>새로운 길</li>
+        <li>길</li>
+        <li>별 헤는 밤</li>
+        <li>쉽게 씌어진 시</li>
+        <li>참회록</li>
+        <li>못 자는 밤</li>
+        <li>비오는 밤</li>
+        <li>소낙비</li>
+      </ul>
+    </aside>
+
+    <footer>©모바일/웹서비스프로그래밍 ®2023</footer>
   </body>
 </html>
